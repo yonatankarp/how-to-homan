@@ -88,43 +88,23 @@ table {
     display: inline-block;
 }
 
-.yes {
+.inline-block {
+    display: inline-block;
+}
+
+.success {
     color: green;
     text-align: center;
     font-weight: bold;
 }
 
-.no {
-    color: red;
-    text-align: center;
-    font-weight: bold;
-}
-
-.validate {
+.neutral {
     color: orange;
     text-align: center;
     font-weight: bold;
 }
 
-.do-it {
-    color: green;
-    text-align: center;
-    font-weight: bold;
-}
-
-.high {
-    color: green;
-    text-align: center;
-    font-weight: bold;
-}
-
-.medium {
-    color: orange;
-    text-align: center;
-    font-weight: bold;
-}
-
-.low {
+.fail {
     color: red;
     text-align: center;
     font-weight: bold;
