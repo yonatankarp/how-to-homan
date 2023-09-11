@@ -1,0 +1,211 @@
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: hsl(49, 100%, 94%);
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    background-color: white;
+}
+
+th {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(247, 177, 0);
+    text-align: center;
+}
+
+table {
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}
+
+.text-to-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    color: rgb(247, 177, 0);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.goal {
+    color: #FFA500;
+    display: inline-block;
+
+}
+
+.risk {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.yes {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.no {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.validate {
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+.do-it {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.high {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.medium {
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+.low {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.okr-title {
+    color: orange;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.okr {
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.okr-card {
+    background-color: hsl(49, 100%, 94%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 180px;
+}
+
+.business-model-card {
+    background-color: hsl(49, 100%, 94%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 350px;
+    width: 100%; /* Set width to 100% to make cards even */
+}
+
+.business-model-canvas-title {
+    color: #FFA500;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.business-model-canvas-subtitle {
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+}
+
+.agile-roadmap-title {
+    font-size: large;
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Footer Link Styles */
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFA500;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
