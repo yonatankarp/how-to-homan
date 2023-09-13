@@ -189,3 +189,77 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
+.profile-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(247, 177, 0);
+    text-align: center;
+    font-size: medium;
+}
+
+.profile-name {
+    color: rgb(247, 177, 0);
+    text-align: center;
+    font-size: large;
+}
+
+.profile-image {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+
+.profile-quote {
+    font-style: italic;
+    font-size: large;
+}
+
+.profile-details {
+    padding-top: 10px;
+}
+
+.profile-details-title {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.profile-bio {
+    padding-bottom: 10px;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-card-container {
+    width: 100%;
+    padding: 20px;
+    background-color: hsl(49, 100%, 94%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: calc(20% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.profile-ul-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-ul {
+    text-align: left;
+}
+
+.centered-ul li {
+    margin-bottom: 10px;
+}
