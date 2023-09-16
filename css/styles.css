@@ -263,3 +263,31 @@ body {
 .centered-ul li {
     margin-bottom: 10px;
 }
+
+/* Menu Bar Styles */
+.menu-bar {
+    background-color: rgb(247, 177, 0);
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-bar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-bar a:hover {
+    color: #684400;
+}
