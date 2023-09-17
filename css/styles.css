@@ -63,9 +63,9 @@ table {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 20px auto; 
+    margin: 20px auto;
     padding: 20px;
-    background-color: #fff; 
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -146,7 +146,8 @@ table {
     font-size: 16px;
     margin-bottom: 20px;
     height: 350px;
-    width: 100%; /* Set width to 100% to make cards even */
+    width: 100%;
+    /* Set width to 100% to make cards even */
 }
 
 .business-model-canvas-title {
@@ -209,10 +210,10 @@ body {
     margin-bottom: 1%;
     width: 150px;
     height: 150px;
-    border: 3px solid black; 
-    border-radius: 50%; 
-    object-fit: cover; 
-  }
+    border: 3px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 .profile-quote {
     font-style: italic;
@@ -290,4 +291,42 @@ body {
 
 .menu-bar a:hover {
     color: #684400;
+}
+
+.disclamer {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    border: solid 2px brown;
+    border-radius: 20px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    width: 50%;
+}
+
+.disclamer-outer {
+    width: 100%;
+    text-align: center;
+    background-color: #0666a3
+}
+
+
+.disclamer-div-outter {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.disclamer-div-inner {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    width: 320px;
+    border: 2px solid black;
+    background-color: rgb(141, 155, 240);
+    border-radius: 50px;
+    color: white;
+    font-size: medium;
 }
