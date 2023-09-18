@@ -330,3 +330,9 @@ body {
     color: white;
     font-size: medium;
 }
+
+.graph {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+}
