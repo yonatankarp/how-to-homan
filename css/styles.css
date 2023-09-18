@@ -19,9 +19,9 @@ img {
     margin: 0 auto;
 }
 
-.text {
+body {
     color: black;
-    font-size: larger;
+    font-size: large;
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ table {
 }
 
 .subtitle {
-    color: rgb(247, 177, 0);
+    color: rgba(178, 128, 1, 0.709);
     text-align: center;
     font-size: xx-large;
 }
@@ -129,10 +129,8 @@ table {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
-    font-weight: bold;
-    font-size: 16px;
     margin-bottom: 20px;
-    height: 180px;
+    height: 200px;
 }
 
 .business-model-card {
@@ -335,4 +333,14 @@ body {
     width: 45%;
     height: auto;
     display: inline-block;
+}
+
+.logo {
+    width: 250px;
+}
+
+.crazy-8s {
+    width: 75%;
+    border: solid 10px black;
+    border-radius: 30px;
 }
