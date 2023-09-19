@@ -346,4 +346,38 @@ body {
     width: 75%;
     border: solid 10px black;
     border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.crazy-8s-selected {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 33%;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.prototype {
+    width: 33%;
+}
+
+.story-map {
+    width: 95%;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.container-text-to-left {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.container-text-to-left-small {
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
 }
