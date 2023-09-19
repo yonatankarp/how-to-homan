@@ -276,7 +276,7 @@ body {
 }
 
 .menu-bar li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
 }
 
@@ -289,6 +289,9 @@ body {
 
 .menu-bar a:hover {
     color: #684400;
+    background-color: #f6f33c;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
 }
 
 .disclamer {
