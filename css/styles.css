@@ -382,22 +382,7 @@ body {
     text-align: left;
 }
 
-
-@media (min-width: 436px) {
-    .okr-card {
-        height: auto;
-    }
-
-    .business-model-card {
-        height: auto;
-    }
-
-    .profile-card-container {
-        max-width: none;
-    }
-}
-
-@media (max-width: 768px) {
+@media (orientation: portrait) {
     table {
         font-size: 14px;
     }
@@ -408,6 +393,18 @@ body {
 
     .crazy-8s-selected {
         border-radius: 15px;
+    }
+
+    .okr-card {
+        height: auto;
+    }
+
+    .business-model-card {
+        height: auto;
+    }
+
+    .profile-card-container {
+        max-width: none;
     }
 }
 
