@@ -36,12 +36,6 @@ table {
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    table {
-        font-size: 14px;
-    }
-}
-
 .text-to-left {
     text-align: left;
 }
@@ -133,6 +127,8 @@ table {
     height: 200px;
 }
 
+
+
 .business-model-card {
     background-color: hsl(49, 100%, 94%);
     padding: 20px;
@@ -145,7 +141,6 @@ table {
     margin-bottom: 20px;
     height: 350px;
     width: 100%;
-    /* Set width to 100% to make cards even */
 }
 
 .business-model-canvas-title {
@@ -386,3 +381,34 @@ body {
     padding: 20px;
     text-align: left;
 }
+
+
+@media (min-width: 436px) {
+    .okr-card {
+        height: auto;
+    }
+
+    .business-model-card {
+        height: auto;
+    }
+
+    .profile-card-container {
+        max-width: none;
+    }
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: fit-content;
+    }
+
+    .crazy-8s-selected {
+        border-radius: 15px;
+    }
+}
+
+/* TODO: there is a regression in OKRs and Business Model Canvas cards caused by the change for mobile browsers that should be fixed! */
