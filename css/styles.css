@@ -73,7 +73,6 @@ table {
 .goal {
     color: #FFA500;
     display: inline-block;
-
 }
 
 .risk {
@@ -124,10 +123,8 @@ table {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
     margin-bottom: 20px;
-    height: 200px;
+    height: 300px;
 }
-
-
 
 .business-model-card {
     background-color: hsl(49, 100%, 94%);
@@ -141,6 +138,10 @@ table {
     margin-bottom: 20px;
     height: 350px;
     width: 100%;
+}
+
+.business-model-last-card {
+    margin-left: 50%;
 }
 
 .business-model-canvas-title {
@@ -261,7 +262,7 @@ body {
 /* Menu Bar Styles */
 .menu-bar {
     background-color: rgb(247, 177, 0);
-    padding: 10px 0;
+    padding: 1%;
 }
 
 .menu-bar ul {
@@ -403,9 +404,43 @@ body {
         height: auto;
     }
 
+    .business-model-last-card {
+        margin-left: auto;
+    }
+
     .profile-card-container {
         max-width: none;
     }
-}
+    
+    .graph,
+    .box,
+    .container-text-to-left,
+    .container-text-to-left-small {
+        display: block;
+        width: 100%;
+    }
 
-/* TODO: there is a regression in OKRs and Business Model Canvas cards caused by the change for mobile browsers that should be fixed! */
+    .story-map {
+        display: block;
+        width: 100%;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+
+    .crazy-8s-user-story {
+        width: 75%;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+
+    .crazy-8s {
+        width: 100%;
+        border-radius: 15px;
+        border: 5px solid black;
+    }
+
+    .crazy-8s-selected,
+    .prototype {
+        width: 80%;
+    }
+}
