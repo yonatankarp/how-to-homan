@@ -240,7 +240,6 @@ body {
     background-color: hsl(49, 100%, 94%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex: 1;
-    max-width: calc(20% - 20px);
     margin: 10px;
     border: 1px solid #ccc;
 }
@@ -384,8 +383,10 @@ body {
 }
 
 @media (orientation: portrait) {
+
     table {
         font-size: 14px;
+        overflow-x: auto;
     }
 
     .container {
@@ -406,10 +407,6 @@ body {
 
     .business-model-last-card {
         margin-left: auto;
-    }
-
-    .profile-card-container {
-        max-width: none;
     }
     
     .graph,
